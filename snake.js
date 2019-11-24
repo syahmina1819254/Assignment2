@@ -162,6 +162,7 @@ function startplay(num,playernum)
   else if(playersteps[playernum]>=25)
   {
     alert("Congrats: Player"+(playernum+1)+" Won.");
+    console.log("Congrats: Player"+(playernum+1)+" Won.");
     draw(5);
   }
   else
