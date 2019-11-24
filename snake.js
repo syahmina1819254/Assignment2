@@ -119,7 +119,7 @@ function startplay(num,playernum)
     {
       prevblock=playersteps[playernum];
       playersteps[playernum]=ladders[i][1];
-      console.log("You advance from" + prevblock + " to " + playersteps[playernum]);
+      console.log("Player " + (playernum+1) +" advance from " + prevblock + " to " + playersteps[playernum]);
       break;
     }
   }
@@ -131,7 +131,7 @@ function startplay(num,playernum)
     {
       prevblock=playersteps[playernum];
       playersteps[playernum]=snakes[i][1];
-        console.log("You fall from" + prevblock + " to " + playersteps[playernum]);
+        console.log("Player " + (playernum+1) +" fall from " + prevblock + " to " + playersteps[playernum]);
       break;
     }
   }
@@ -167,4 +167,5 @@ function startplay(num,playernum)
   }
   else
     playersteps[playernum]=oldstep;
+  
 }
