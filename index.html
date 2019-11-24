@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Snakes and ladder game</title>
+	<link rel="stylesheet" href="style.css">
+<script src="snake.js" charset="utf-8"></script>
+</head>
+<body onload="draw(5)" bgcolor="#8AB8E6">
+	<center>
+	<h2>Snakes and ladder game</h2>
+
+	<table>
+		<form name="snl">
+		<tr>
+			<td><div id="board"></div></td>
+			<td width="71px">
+				<div id="playerbtn"></div>
+			</td>
+			<td width=> <div id="youRoll"></div> </td>
+		</tr>
+		<tr>
+			<td colspan="3" align="center"><br>
+				<input type="button" value="CLICK TO START" onclick="Startbuttons()" id="okbtn">
+			</td>
+		</tr>
+		</form>
+	</table>
+	</center>
+	<div id="s1">
+	<img src="images/snake1.png"  width="120" height="180"></img>
+	</div>
+	<div id="s2">
+	<img src="images/snake2.gif" width="105" height="165"></img>
+	</div>
+	<div id="l1">
+	<img src="images/ladder1.gif" width="50" height="165"></img>
+	</div>
+	<div id="l2">
+	<img src="images/ladder2.gif" width="50" height="165"></img>
+	</div>
+</body>
+</html>
